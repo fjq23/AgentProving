@@ -3,7 +3,6 @@ import httpx
 
 from prompt import TASK_DESCRIPTION
 
-openai.api_key = "key"
 
 class GPT4Model: # 使用US-A节点
     def __init__(self):
