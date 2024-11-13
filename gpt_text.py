@@ -1,16 +1,5 @@
-import os
-import json
 import openai
-from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from threading import Lock
 import httpx
-from threading import Lock
-import sys
-import time
-
-from click import prompt
-from sympy import content
 
 from prompt import TASK_DESCRIPTION
 

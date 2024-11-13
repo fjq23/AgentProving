@@ -1,5 +1,3 @@
-
-
 class Element:
     def __init__(self, propositions):
         # 将输入的原子命题字符串分割成列表，并去重
